@@ -84,7 +84,7 @@ class ArrayBoom extends Phaser.Scene {
         this.bulletSpeed = 300;
 
         // update HTML description
-        document.getElementById('description').innerHTML = '<h2>Array Boom.js</h2><br>A: left // D: right // Space: fire/emit';
+        document.getElementById('description').innerHTML = '<h2>Audio Practice</h2><br>A: left // D: right // Space: fire/emit';
 
         // Put score on screen
         my.text.score = this.add.bitmapText(580, 0, "rocketSquare", "Score " + this.myScore);
